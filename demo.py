@@ -3,7 +3,7 @@ import tkinter as tk
 from tkinter import messagebox
 
 def check_password():
-    if entry.get() == "2025":
+    if entry.get() == "04818R3X":
         messagebox.showinfo("Success", "Congrats! You saved the world")
     else:
         messagebox.showerror("Error", "Incorrect password")
@@ -25,7 +25,7 @@ entry.config(font=("Arial", 14),width=40)
 button.config(font=("Arial", 14))
 
 def check_password_and_close():
-    if entry.get() == "2025":
+    if entry.get() == "04818R3X":
         messagebox.showinfo("Success", "Congrats! You saved the world")
         app.destroy()
     else:
