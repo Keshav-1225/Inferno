@@ -13,7 +13,7 @@ app.title("Password Checker")
 label = tk.Label(app, text="Enter Password:")
 label.pack(pady=100)
 
-entry = tk.Entry(app, show="*")
+entry = tk.Entry(app)
 entry.pack(pady=10)
 
 button = tk.Button(app, text="Submit", command=check_password)
